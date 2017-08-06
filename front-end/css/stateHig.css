@@ -2,3 +2,12 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.is-login-buttons{
+    display: inline;
+    left: 75%;
+}
+
+.is-button-show-hidde{
+    display: none;
+}

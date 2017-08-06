@@ -1,3 +1,26 @@
 body{
     display: block;
 }
+
+button{
+    border: none;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: var(--fundo-botao);
+}
+
+.m-buttons-title{
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.m-top-bar-buttons{
+    position: absolute;
+    margin-top: 15px;
+}
