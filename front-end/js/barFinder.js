@@ -53,9 +53,9 @@ function findNearbyBars() {
 function callback(results, status) {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
         // Carteando para escolher 3 lugares que teriam desconto naquela hora
-        placeBarMarker(results[0], 'Skol latinha', '1.95', '../../IMAGENS/skol.jpg');
-        placeBarMarker(results[1], 'Budweiser 600 ml', '5.40', '../../IMAGENS/budweiser.jpg');
-        placeBarMarker(results[2], 'Stella Artois long neck', '2.70', '../../IMAGENS/stellaArtois.jpg');
+        placeBarMarker(results[0], 'Skol latinha', '1.95', 'img/skol.jpg');
+        placeBarMarker(results[1], 'Budweiser 600 ml', '5.40', 'img/budweiser.jpg');
+        placeBarMarker(results[2], 'Stella Artois long neck', '2.70', 'img/stellaArtois.jpg');
     }
 }
 

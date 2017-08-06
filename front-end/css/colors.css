@@ -1,8 +1,10 @@
 :root{
     --cinza-fundo: #404040;
-    --cinza-borda-fina: #E0E0E0;
-    --barra-topo: #D0D0D0;
+    --cinza-borda-fina: #222222;
+    --barra-topo: #7bb7ba;
     --fundo-botao: #FFFFFF;
+    --fundo-botao2: #eebb32;
     --login-window: #FFFFFF;
-    --texto-titulos: #A0A0A0;
+    --texto-titulos: #EEEEFF;
+    --itens-principais: #7bb7ba;
 }

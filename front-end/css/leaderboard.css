@@ -39,7 +39,7 @@
     margin:0;
     padding:0;
     list-style: none;
-    border:5px solid #CCC;
+    border:5px solid var(--itens-principais);
     background: rgba(40,40,40,0.75);
 }
 .content ul li{
@@ -65,7 +65,7 @@
 }
 .count:after{
     content:' Votos';
-    color:#CCC;
+    color:var(--itens-principais);
     font-size:80%;
     font-weight:normal;
 }
