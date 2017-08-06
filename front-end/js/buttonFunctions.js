@@ -28,3 +28,7 @@ function clickX(){
     $(".is-escurecimento-fundo").css({ "display" : "none" });
     $(".is-login-window").css({ "display" : "none" });
 }
+
+function clickFacebook(){
+    $( "#imagemFacebook" ).attr( "src" , "img/loader.gif" );
+}

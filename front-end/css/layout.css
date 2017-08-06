@@ -64,3 +64,8 @@
     height: 50px;
     margin: 5px;
 }
+
+.l-botao-facebook{
+    position: relative;
+    top: 40%;
+}
