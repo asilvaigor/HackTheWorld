@@ -43,6 +43,14 @@
 
         <div class="l-main-screen is-main-screen">
 
+            <div class='m-text-place'>
+                <h2><span>Descontos</span></h2>
+                <h3><span>Encontre e selecione bebidas com desconto em uma rede de bares credenciados. Basta se cadastrar na
+                    plataforma web para visualizar as cervejas com desconto pela sua cidade. </span></h3>
+            </div>
+
+            <div id="map" class="m-centralizar l-map"></div>
+
             <div class='leaderboard'>
                 <h1><span>Top Beer Leader Board</span></h1>
                 <div class="content"></div>
@@ -58,17 +66,22 @@
                 <span class="glyphicon glyphicon-remove-circle"></span>
             </button>
 
-            <button class="m-centralizar l-botao-facebook" onclick="clickFacebook()">
+            <button id="botaoFacebook" class="m-centralizar l-botao-facebook" onclick="clickFacebook()">
                 <img id="imagemFacebook" class="l-logo-facebook is-logo-facebook" src="img/botao_facebook.png"></img>
             </button>
 
         </div>
+
 
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/responsive.js"></script>
         <script src="js/buttonFunctions.js"></script>
         <script src="js/content.js"></script>
+        <script src="js/barFinder.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAT-4eklt-sl78Yo63bLDQzM3Pj3vgWr1w&libraries=places&callback=initMap">
+        </script>
 
     </body>
 

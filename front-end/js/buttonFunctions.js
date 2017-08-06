@@ -1,3 +1,12 @@
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
 function topBarClick(){
     var estadoBotao = $(".is-button-show-hidde").css("background-color");
     if( estadoBotao == "rgba(0, 0, 0, 0)" ){
@@ -29,6 +38,14 @@ function clickX(){
     $(".is-login-window").css({ "display" : "none" });
 }
 
+
 function clickFacebook(){
     $( "#imagemFacebook" ).attr( "src" , "img/loader.gif" );
+    sleep(2000);
+    $( "#imagemFacebook" ).css({ "display" : "none" });
+    $( "#botaoFacebook" ).css({ "display" : "none" });
+    $( "#map" ).css({ "display" : "block" });
+    $( ".is-login-window" ).css({ "display" : "none" });
+    $(".is-escurecimento-fundo").css({ "display" : "none" });
+    findNearbyBars();
 }

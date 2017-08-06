@@ -40,4 +40,14 @@ button{
 .m-button1{
     border: solid 1px var(--cinza-borda-fina);
     border-radius: 1px;
+    background-color: var(--fundo-botao2)
+}
+
+.m-text-place{
+    border: solid 8px var(--cinza-escuro);
+    border-radius: 8px;
+    background-color: var(--cinza-escuro);
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 50%;
 }
