@@ -1,0 +1,25 @@
+Nome do projeto: TopBeer
+
+O que ele é: é uma plataforma online que possibilita ranquear cervejas de um bar.
+
+Qual o objetivo: atrair maior público para os bares, além disso fornecer uma experiencia diferenciada para os consumidores.
+
+Qual é o problema: falta da incentivo à participação do consumidor no processo de avaliação do produto.
+
+Referência: Mais rápido e melhor - Charles Duhigg (a escolha faz a pessoa ficar mais motivada a consumir o produto).
+
+Quem estamos ajudando: o consumidor (desconto e infromação sobre preços/desconto em um bar) e os bares (aumento do público e do consumo) [a  marca da cervejaria eventualmente pode ser divulgada no app].
+
+Solução/implementação: Paltaforma para o ranquemento de cervejas de um bar (tem que estar dentro do bar)
+		     ->Ranqueamento semanal (votam na cerveja da seman que vem).
+		     ->Há liberdade para o bar escoher o desconto.
+
+Monetização da solução: ->Pequena taxa cobrada do bar.
+			->Comerciais para empresas qe fornecem a cerveja.
+			->Venda dos dados a respeito do consumo das cervejas.
+
+Risco: Para que a solução seja efetiva é necessário que haja um número mínimo de utilizadores do serviço.
+
+Ideias para superar a dificuldade inicial: ->Investimento inicial em marketing
+					   ->Não cobrar dos bares inicialmente o uso da plataforma.
+					   ->Utilizar alguma forma de rankeamento inicial.
