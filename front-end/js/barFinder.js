@@ -21,7 +21,7 @@ function initMap() {
             };
 
             infoWindow.setPosition(currentPosition);
-            infoWindow.setContent('Current location.');
+            infoWindow.setContent('Localização Atual.');
             infoWindow.open(map);
             map.setCenter(currentPosition);
         }, function () {
