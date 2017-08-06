@@ -1,0 +1,51 @@
+1. Nome do projeto: 
+TopBeer [DEFINIR E PADRONIZAR EXPLICAÇÃO PARA A ESCOLHA DO NOME]
+
+2. O que ele é: 
+* Definição: Plataforma de otimização da experiência participativa do consumidor.
+* Descrição: Plataforma online que possibilita ranquear cervejas de um bar para motivar a participação do consumidor a ter influência sobre o preço final do produto que deseja, incentivá-lo a consumir mais em decorrência disso e provocar um marketing em cima da redução de preço para atrair mais consumidores.
+
+3. Qual o objetivo
+Aumentar o público para os bares cadastrados através do fornecimento de uma experiência motivada na participação dos consumidores na redução do preço.
+
+4. Qual é o problema
+* Problema central: [DISCUTIR]
+* Problemas marginais:
+- Falta do incentivo à participação do consumidor no processo de avaliação do produto.
+- 
+
+5. Referência (aprofundar mais, pode ser o ponto crucial que precisamos à apresentação)
+Mais rápido e melhor - Charles Duhigg (a escolha faz a pessoa ficar mais motivada a consumir o produto).
+
+6. Beneficiamento [ELES VÃO CAIR EM CIMA DISSO, TENTAR TRABALHAR MAIS]
+Aos bares, aumento do público e do consumo.
+Ao consumidor, desconto, informação sobre preços/desconto em um bar e experiência participativa integrada.
+À marca da cervejaria, eventualmente divulgação na plataforma.
+
+7. Solução/implementação
+Plataforma para o ranqueamento de cervejas de um bar a partir de cadastro prévio. Serão seguidas as seguintes diretrizes:
+- Necessidade de cadastramento.
+- Uma vez cadastrado, o bar tem acesso à plataforma com a customização para os seus produtos, que serão postos à votação pública das pessoas que frequentam o bar a fim de gerar benefícios aos consumidores.
+- [DISCUTIR] A votação é feita com restrição de localização, ou seja, é necessário estar no bar para votar nos seus produtos.
+- O ranqueamento é semanal, ou seja, os resultados zeram a cada semana e os votos da presente semana contam para a semana seguinte. [POR QUE? FUNDAMENTAR]
+- As votações ocorrem de forma independente por estabelecimento, ou seja, o resultado de um não afeta diretamente o resultado de outro, as votações são separadas.
+- [DISCUTIR] Há liberdade para o bar escolher o desconto.
+
+8. Monetização da solução [ELES TAMBÉM VÃO CAIR EM CIMA, TENTAR DEFINIR MELHOR]
+- Pequena mensalidade cobrada ao bar.
+- [DISCUTIR] Comerciais para empresas que fornecem a cerveja.
+As empresas pagariam para que fossem botados anúncios de seus produtos na plataforma? Nesse caso, basicamente ela pagaria para promover os seus produtos frente aos outros e, com isso, incentivar que os seus produtos sejam vendidos mais baratos?
+- Venda dos dados a respeito do consumo das cervejas
+- Cervejas mais consumidas
+- Preço
+
+9. Riscos
+1 – Energia de ativação relativamente alta. Será necessário um grande investimento inicial em marketing para promover a plataforma e incentivar inicialmente a votação.
+2 – As pessoas precisam continuar votando, há a possibilidade de não haver a participação pública desejada ou ela não ser o suficiente para ser um diferencial ao estabelecimento comercial.
+3 – O contínuo desconto pode promover acentuadamente o consumo de determinada bebida em detrimento das demais bebidas de uma mesma cervejaria, por exemplo. Logo, há a possibilidade de acontecimento de uma situação hipotética onde o estabelecimento comercial diminui a compra das bebidas que são menos pedidas e prioriza as bebidas melhores ranqueadas, o que pode causar algum prejuízo à cervejaria.
+
+10. Estratégia de lançamento
+- Investimento inicial em marketing através de redes sociais
+- Não cobrar dos bares inicialmente o uso da plataforma.
+- [DEFINIR] Proposta inicial para cadastro dos estabelecimentos comerciais.
+- [DISCUTIR] Utilizar alguma forma de ranqueamento inicial.
