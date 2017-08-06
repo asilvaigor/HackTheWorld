@@ -53,9 +53,10 @@ function findNearbyBars() {
 function callback(results, status) {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
         // Carteando para escolher 3 lugares que teriam desconto naquela hora
-        placeBarMarker(results[0], 'Skol latinha', '1.95', 'img/skol.jpg');
-        placeBarMarker(results[1], 'Budweiser 600 ml', '5.40', 'img/budweiser.jpg');
-        placeBarMarker(results[2], 'Stella Artois long neck', '2.70', 'img/stellaArtois.jpg');
+        placeBarMarker(bars[0], 'Skol latinha', '1.95', '../../IMAGENS/skol.jpg');
+        placeBarMarker(bars[1], 'Budweiser 600 ml', '5.40', '../../IMAGENS/budweiser.jpg');
+        placeBarMarker(bars[2], 'Stella Artois long neck', '2.70', '../../IMAGENS/stellaArtois.jpg');
+        this.bars = bars;
     }
 }
 
@@ -76,4 +77,17 @@ function placeBarMarker(place, beerName, beerPrice, imagePath) {
             ' <a href=' + path + '>Direções</a>');
         infowindow.open(map, this);
     });
+}
+
+function getNearestBarName() {
+    var minDistId = 0;
+    for (var i = 1; i < 3; i++) {
+        if((bars[i].geometry.location.lat() - currentPosition.lat) * (bars[i].geometry.location.lat() -
+                currentPosition.lat) + (bars[i].geometry.location.lng() - currentPosition.lng) *
+            (bars[i].geometry.location.lng() - currentPosition.lng) < minDist) {
+            minDistId = i;
+        }
+    }
+
+    return bars[minDistId].name;
 }
