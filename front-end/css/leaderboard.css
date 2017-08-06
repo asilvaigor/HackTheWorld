@@ -24,7 +24,7 @@
     text-transform: uppercase;
     margin:30px;
     padding:0;
-    color: #cc7713;
+    color: var(--texto-titulos);
 }
 
 .content {
