@@ -6,6 +6,8 @@
 .is-login-buttons{
     display: inline;
     left: 75%;
+    background: none;
+    border: none;
 }
 
 .is-button-show-hidde{
