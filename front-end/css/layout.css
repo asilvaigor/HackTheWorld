@@ -1,0 +1,15 @@
+.l-top-bar{
+    position: fixed;
+    display: inline;
+    height: 60px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+.l-main-screen{
+    border: none;
+    position: relative;
+}
