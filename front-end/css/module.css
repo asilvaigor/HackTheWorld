@@ -40,4 +40,5 @@ button{
 .m-button1{
     border: solid 1px var(--cinza-borda-fina);
     border-radius: 1px;
+    background-color: var(--fundo-botao2)
 }
