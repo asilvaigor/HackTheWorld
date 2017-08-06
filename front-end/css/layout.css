@@ -18,3 +18,30 @@
     left: 10px;
     background: none;
 }
+
+.l-escurecimento-fundo{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    border: none;
+}
+
+.l-login-window{
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: var(--login-window);
+    border: solid 20px var(--login-window);
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+
+.l-button-X{
+    position: absolute;
+}
