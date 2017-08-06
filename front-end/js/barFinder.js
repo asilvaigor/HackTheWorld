@@ -56,7 +56,7 @@ function callback(bars, status) {
 
         placeBarMarker(bars[0], 'Skol latinha', '1.95', 'img/skol.jpg');
         placeBarMarker(bars[1], 'Budweiser 600 ml', '5.40', 'img/budweiser.jpg');
-        placeBarMarker(bars[2], 'Stella Artois long neck', '2.70', 'img/IMAGENS/stellaArtois.jpg');
+        placeBarMarker(bars[2], 'Stella Artois long neck', '2.70', 'img/stellaArtois.jpg');
         this.bars = bars;
     }
 }
