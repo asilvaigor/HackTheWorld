@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/colors.css"></link>
         <link rel="stylesheet" id="responsive-sheet"></link>
         <link rel="stylesheet" href="css/text.css"></link>
+        <link rel="stylesheet" href="css/leaderboard.css"></link>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,60 +25,42 @@
 
         <div class="l-top-bar is-top-bar">
 
-            <button class="m-top-bar-buttons is-button-show-hidde l-button-show-hidde">
+            <button class="m-top-bar-buttons is-button-show-hidde l-button-show-hidde" onclick="topBarClick()">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
             </button>
 
             <div class="is-login-buttons m-top-bar-buttons">
                 <span class="m-buttons-title">Login:</span>
-                <button class="is-button-consumidor">Consumidor</button>
-                <button class="is-button-colaborador">Colaborador</button>
+                <button class="is-button-consumidor" onclick="loginClickCliente()">Consumidor</button>
+                <button class="is-button-colaborador" onclick="loginClickColaborador()">Colaborador</button>
             </div>
 
         </div>
 
         <div class="l-main-screen is-main-screen">
 
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
+            <div class='leaderboard'>
+                <h1><span>Top Beer Leader Board</span></h1>
+                <div class="content"></div>
+            </div>
 
         </div>
 
+        <div class="l-escurecimento-fundo is-escurecimento-fundo"></div>
+
+        <div class="l-login-window is-login-window">
+
+            <button class="l-button-X is-button-X" onclick="clickX()">
+                <span class="glyphicon glyphicon-remove-circle"></span>
+            </button>
+
+        </div>
 
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/responsive.js"></script>
+        <script src="js/buttonFunctions.js"></script>
+        <script src="js/content.js"></script>
 
     </body>
 

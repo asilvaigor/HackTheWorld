@@ -24,3 +24,7 @@ button{
     position: absolute;
     margin-top: 15px;
 }
+
+.glyphicon{
+    font-size: 24px;
+}
