@@ -48,4 +48,7 @@ function clickFacebook(){
     $( ".is-login-window" ).css({ "display" : "none" });
     $(".is-escurecimento-fundo").css({ "display" : "none" });
     findNearbyBars();
+    $( ".is-text-place" ).css({ "display" : "none" });
+    $( ".is-leaderboard" ).css({ "display" : "block" });
+    $( ".is-bar-name" ).html( getNearestBarName() );
 }

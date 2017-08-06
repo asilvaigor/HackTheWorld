@@ -49,5 +49,5 @@ button{
     background-color: var(--cinza-escuro);
     color: #FFFFFF;
     opacity: 0.8;
-    width: 50%;
+    margin: 20px;
 }

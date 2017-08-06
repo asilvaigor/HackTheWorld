@@ -82,11 +82,15 @@ function placeBarMarker(place, beerName, beerPrice, imagePath) {
 
 function getNearestBarName() {
     var minDistId = 0;
+    var minDist = 1;
     for (var i = 1; i < 3; i++) {
         if((bars[i].geometry.location.lat() - currentPosition.lat) * (bars[i].geometry.location.lat() -
                 currentPosition.lat) + (bars[i].geometry.location.lng() - currentPosition.lng) *
             (bars[i].geometry.location.lng() - currentPosition.lng) < minDist) {
             minDistId = i;
+            minDist = (bars[i].geometry.location.lat() - currentPosition.lat) * (bars[i].geometry.location.lat() -
+             currentPosition.lat) + (bars[i].geometry.location.lng() - currentPosition.lng) *
+             (bars[i].geometry.location.lng() - currentPosition.lng);
         }
     }
 

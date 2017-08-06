@@ -9,6 +9,7 @@
 
 
 .leaderboard {
+    display: none;
     position:relative;
     width:70%;
     height:70%;

@@ -1,0 +1,10 @@
+.tx-textos p{
+    text-align: justify;
+    font-size: 12pt;
+    text-indent: 24pt;
+}
+
+.tx-textos h1{
+    font-size: 18pt;
+    text-indent: 24pt;
+}
