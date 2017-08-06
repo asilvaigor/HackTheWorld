@@ -6,37 +6,77 @@
 		};
 		this.callback = callback;
 		this.config = $.extend(defaults, options);
-		this.list = [
-			'Stella',
-			'Budweiser',
-      'Outros'
-
-		];
+        this.list = [
+            'Skol latinha',
+            'Budweiser long neck',
+            'Stella-Artois long neck',
+            'Brahma latinha',
+            'Bohemia latinha',
+            'Corona long neck',
+            'Antarctica latinha',
+            'Serramalte long neck'
+        ];
 	}
-	FakePoller.prototype.getData = function() {
-		var results = [];
-		for (var i = 0, len = this.list.length; i < len; i++) {
-			if(i==0){
-				results.push({
-				name: this.list[i],
-				count: 1852
-				});
-			}
-			if(i==1){
-				results.push({
-				name: this.list[i],
-				count: 1432
-				});
-			}
-			if(i>1){
-				results.push({
-				name: this.list[i],
-				count: 0
-				});
-			}
-		}
-		return results;
-	};
+    FakePoller.prototype.getData = function() {
+        var results = [];
+        for (var i = 0, len = this.list.length; i < len; i++) {
+            if(i==0){
+                results.push({
+                    name: this.list[i],
+                    count: 25
+                });
+            }
+            if(i==1){
+                results.push({
+                    name: this.list[i],
+                    count: 21
+                });
+            }
+            if(i==2){
+                results.push({
+                    name: this.list[i],
+                    count: 18
+                });
+            }
+            if(i==3){
+                results.push({
+                    name: this.list[i],
+                    count: 15
+                });
+            }
+            if(i==4){
+                results.push({
+                    name: this.list[i],
+                    count: 12
+                });
+            }
+            if(i==5){
+                results.push({
+                    name: this.list[i],
+                    count: 9
+                });
+            }
+            if(i==6){
+                results.push({
+                    name: this.list[i],
+                    count: 6
+                });
+            }
+            if(i==7){
+                results.push({
+                    name: this.list[i],
+                    count: 3
+                });
+            }
+            if(i==8){
+                results.push({
+                    name: this.list[i],
+                    count: 2
+                });
+            }
+        }
+        return results;
+    };
 	FakePoller.prototype.processData = function() {
 		return this.sortData(this.getData()).slice(0, this.config.limit);
 	};
