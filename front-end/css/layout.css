@@ -13,3 +13,8 @@
     position: relative;
     top: 100px;
 }
+
+.l-button-show-hidde{
+    left: 10px;
+    background: none;
+}
