@@ -2,3 +2,14 @@
     margin-left: 200px;
     margin-right: 200px;
 }
+
+.is-login-buttons{
+    display: inline;
+    left: 75%;
+    background: none;
+    border: none;
+}
+
+.is-button-show-hidde{
+    display: none;
+}

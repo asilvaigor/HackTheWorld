@@ -4,7 +4,7 @@
 
     <head>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
         <meta charset="utf-8"></meta>
         <link rel="stylesheet" href="css/normalize.css"></link>
@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="css/colors.css"></link>
         <link rel="stylesheet" id="responsive-sheet"></link>
         <link rel="stylesheet" href="css/text.css"></link>
+        <link rel="stylesheet" href="css/leaderboard.css"></link>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <link rel="icon" href="img/logo-aba.gif" type="image/gif" sizes="32x32">
 
@@ -20,55 +23,48 @@
 
     <body>
 
+        <div class="l-fundo"></div>
+
         <div class="l-top-bar is-top-bar">
 
-            <div class="l-login-buttons">
+            <button class="m-top-bar-buttons is-button-show-hidde l-button-show-hidde" onclick="topBarClick()">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </button>
 
+            <img class="l-top-bar-logo m-centralizar" src="img/logo-topBeer.png"></img>
+
+            <div class="is-login-buttons m-top-bar-buttons">
+                <span class="m-buttons-title">Login:</span>
+                <button class="is-button-consumidor m-button1" onclick="loginClickCliente()">Consumidor</button>
+                <button class="is-button-colaborador m-button1" onclick="loginClickColaborador()">Colaborador</button>
             </div>
 
         </div>
 
         <div class="l-main-screen is-main-screen">
 
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
-            <h1>some text</h1>
+            <div class='leaderboard'>
+                <h1><span>Top Beer Leader Board</span></h1>
+                <div class="content"></div>
+            </div>
 
         </div>
 
+        <div class="l-escurecimento-fundo is-escurecimento-fundo"></div>
+
+        <div class="l-login-window is-login-window">
+
+            <button class="l-button-X is-button-X" onclick="clickX()">
+                <span class="glyphicon glyphicon-remove-circle"></span>
+            </button>
+
+        </div>
 
         <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/responsive.js"></script>
+        <script src="js/buttonFunctions.js"></script>
+        <script src="js/content.js"></script>
 
     </body>
 

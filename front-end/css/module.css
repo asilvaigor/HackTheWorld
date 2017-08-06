@@ -1,3 +1,42 @@
 body{
     display: block;
 }
+
+button{
+    border: none;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: var(--fundo-botao);
+}
+
+.m-buttons-title{
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.m-top-bar-buttons{
+    position: absolute;
+    margin-top: 15px;
+}
+
+.m-centralizar{
+    right: 50%;
+    -ms-transform: translateX( 50% );
+    -webkit-transform: translateX( 50% );
+    transform: translateX( 50% );
+}
+
+.glyphicon{
+    font-size: 24px;
+}
+
+.m-button1{
+    border: solid 1px var(--cinza-borda-fina);
+    border-radius: 1px;
+}

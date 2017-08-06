@@ -10,12 +10,16 @@ function windowResize(){
 
     if ( winWidth > highWidthLimit ){
         $( "#responsive-sheet" ).attr( "href" , "css/stateHig.css" );
+        $(".is-login-buttons").css({ "display" : "inline" });
     }
     else if ( winWidth > lowWidthLimit ){
         $( "#responsive-sheet" ).attr( "href" , "css/stateMid.css" );
+        $(".is-login-buttons").css({ "display" : "inline" });
+        $(".is-button-show-hidde").css({ "background-color" : "rgba(0, 0, 0, 0)" });
     }
     else{
         $( "#responsive-sheet" ).attr( "href" , "css/stateLow.css" );
+        $(".is-login-buttons").css({ "display" : "none" });
     }
 
 }

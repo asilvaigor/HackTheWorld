@@ -2,3 +2,16 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.is-login-buttons{
+    display: none;
+    left: 10%;
+    top: 60px;
+    background-color: var(--barra-topo);
+    border: solid 4px var(--barra-topo);
+    border-radius: 4px;
+}
+
+.is-button-show-hidde{
+    display: block;
+}
