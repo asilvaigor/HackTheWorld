@@ -57,7 +57,6 @@ function callback(bars, status) {
         placeBarMarker(bars[1], 'Budweiser 600 ml', '5.40', '../../IMAGENS/budweiser.jpg');
         placeBarMarker(bars[2], 'Stella Artois long neck', '2.70', '../../IMAGENS/stellaArtois.jpg');
         this.bars = bars;
-        getCurrentBarName();
     }
 }
 
@@ -80,7 +79,7 @@ function placeBarMarker(place, beerName, beerPrice, imagePath) {
     });
 }
 
-function getCurrentBarName() {
+function getNearestBarName() {
     var minDistId = 0;
     for (var i = 1; i < 3; i++) {
         if((bars[i].geometry.location.lat() - currentPosition.lat) * (bars[i].geometry.location.lat() -
