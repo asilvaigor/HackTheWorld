@@ -2,14 +2,14 @@
     position: fixed;
     display: inline;
     height: 60px;
-    background-color: #FFFFFF;
+    background-color: var(--cor-barra-topo);
     width: 100%;
     border: none;
-    padding: none;
-    margin: none;
+    top: 0;
 }
 
 .l-main-screen{
     border: none;
     position: relative;
+    top: 100px;
 }
