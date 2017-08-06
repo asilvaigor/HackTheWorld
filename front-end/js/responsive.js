@@ -15,6 +15,7 @@ function windowResize(){
     else if ( winWidth > lowWidthLimit ){
         $( "#responsive-sheet" ).attr( "href" , "css/stateMid.css" );
         $(".is-login-buttons").css({ "display" : "inline" });
+        $(".is-button-show-hidde").css({ "background-color" : "rgba(0, 0, 0, 0)" });
     }
     else{
         $( "#responsive-sheet" ).attr( "href" , "css/stateLow.css" );

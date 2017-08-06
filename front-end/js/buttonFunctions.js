@@ -13,3 +13,18 @@ function topBarClick(){
         }
     }
 };
+
+function loginClickCliente(){
+    $(".is-escurecimento-fundo").css({ "display" : "block" });
+    $(".is-login-window").css({ "display" : "block" });
+}
+
+function loginClickColaborador(){
+    $(".is-escurecimento-fundo").css({ "display" : "block" });
+    $(".is-login-window").css({ "display" : "block" });
+}
+
+function clickX(){
+    $(".is-escurecimento-fundo").css({ "display" : "none" });
+    $(".is-login-window").css({ "display" : "none" });
+}

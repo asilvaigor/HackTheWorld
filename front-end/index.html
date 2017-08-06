@@ -30,8 +30,8 @@
 
             <div class="is-login-buttons m-top-bar-buttons">
                 <span class="m-buttons-title">Login:</span>
-                <button class="is-button-consumidor">Consumidor</button>
-                <button class="is-button-colaborador">Colaborador</button>
+                <button class="is-button-consumidor" onclick="loginClickCliente()">Consumidor</button>
+                <button class="is-button-colaborador" onclick="loginClickColaborador()">Colaborador</button>
             </div>
 
         </div>
@@ -74,6 +74,15 @@
 
         </div>
 
+        <div class="l-escurecimento-fundo is-escurecimento-fundo"></div>
+
+        <div class="l-login-window is-login-window">
+
+            <button class="l-button-X is-button-X" onclick="clickX()">
+                <span class="glyphicon glyphicon-remove-circle"></span>
+            </button>
+
+        </div>
 
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
