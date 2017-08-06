@@ -10,6 +10,8 @@ Referência: Mais rápido e melhor - Charles Duhigg (a escolha faz a pessoa ficar 
 
 Quem estamos ajudando: o consumidor (desconto e infromação sobre preços/desconto em um bar) e os bares (aumento do público e do consumo) [a  marca da cervejaria eventualmente pode ser divulgada no app].
 
+Escalabilidade da ideia: 
+
 Solução/implementação: Paltaforma para o ranquemento de cervejas de um bar (tem que estar dentro do bar)
 		     ->Ranqueamento semanal (votam na cerveja da seman que vem).
 		     ->Há liberdade para o bar escoher o desconto.
